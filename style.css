@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+}
+.header-area {
+	background-color: #3B5998;
+	padding: 10px 0;
+	font-family: tahoma;
+	font-size: 12px;
+}
+.header-area .conteinar {
+	width: 80%;
+	margin: auto;
+}
+.header-area .logo {
+	float: left;
+	width: 30%;
+	margin-top: 20px;
+}
+.header-area .login {
+	overflow: hidden;
+	width: 70%;
+}
+.login label {
+	display: block;
+	color: white;
+	cursor: pointer;
+}
+.login input {
+	display: block;
+	margin: 5px 0 2px;
+	border: 1px solid #3B5998;
+	padding: 2px;
+}
+.username input[type="checkbox"] {
+	margin-left: 0;
+	float: left;
+}
+.username label[for="check"] {
+	color:#83B4D8;
+	overflow: hidden;
+	margin: 3px 0 0 2px;
+	display:inline-block;
+}
+.login .username {
+	float: left;
+	margin-right: 15px;
+}
+.login .password {
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+}
+.login .password a{
+	color:#83B4D8;
+	text-decoration: none;
+}
+.login .password a:hover {
+	text-decoration: underline;
+}
+.login .submit {
+	overflow: hidden;
+	float: right;
+}
+.login .submit input {
+	background-color: #365899;
+	color: white;
+	margin-top: 20px;
+	border: 1px solid #29487D;
+}
+.login form {
+	float: right;
+}
+.content {
+	background: linear-gradient(#FFFFFF, #D3D8E8 );
+	font-family: tahoma, arial;
+	font-weight: normal;
+}
+.second {
+	width: 80%;
+	margin: auto;
+}
+.left-side {
+	width: 55%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.right-side {
+	width: 35%;
+	overflow: hidden;
+}
+.right-side h1 {
+	font-family: 'Anton', sans-serif;
+	margin: 0;
+	margin-top: 15px;
+}
+.right-side h3 {
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+}
+.content form {
+	margin-top: 15px;
+}
+.right-side input[type="text"],
+.right-side input[type="password"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #999999;
+	padding: 10px;
+	border-radius: 6px;
+}
+.right-side input[type="text"]:nth-child(1) {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.right-side input[type="text"]:nth-child(2) {
+	width: 48%;
+}
+.birth select {
+	padding: 6px 3px;
+	border: 1px solid #BCE5FC;
+	float: left;
+}
+.birth a {
+	font-size: 11px;
+	text-decoration: none;
+	line-height: 15px;
+	display: block;
+}
+.birth a:hover {
+	text-decoration: underline;
+}
+.birth select:last-of-type {
+	margin-right: 10px;
+}
+.gender {
+	margin: 15px 0;
+}
+.gender label {
+	cursor: pointer;
+}
+.right-side p {
+	font-size: 11px;
+	color: #AB8496;
+}
+.right-side p a {
+	text-decoration: none;
+}
+.right-side p a:hover {
+	text-decoration: underline;
+}
+.right-side input[type="submit"] {
+	background: linear-gradient(#76B861, #588944);
+	border: 1px solid #64A852;
+	border-radius: 6px;
+	padding: 6px 60px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right-side input[type="submit"]:hover {
+	background: linear-gradient(#588944, #76B861);
+}
+.footer-area {
+	font-family: tahoma; 
+	font-size: 12px;
+}
+.footer-area a {
+	text-decoration: none;
+}
+.footer-area a:hover {
+	text-decoration: underline;
+}
+.footer-area ul {
+	padding: 0;
+	margin-top: 0;
+	list-style: none;
+}
+.footer-area ul li {
+	float: left;
+}
+.footer-top,
+.footer-bottom {
+	overflow: hidden;
+	padding: 10px 0;
+} 
+.footer-area hr {
+	border-top: 0;
+	border-left: 0;
+	border-right: o;
+	border-bottom: 1px solid #D3D8E8;
+}
+.footer-top li {
+	margin-right: 10px;
+}
+.footer-bottom li {
+	width: 8%;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 80%;
+	margin: auto;
+}

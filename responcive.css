@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+	.header-area .logo {
+		float: none;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+	.header-area .login {
+		width: 100%;
+	}
+	.login form {
+		float: none;
+		width: 368px;
+		margin: auto;
+	}
+}
+
+
+
+@media all and (max-width: 500px) {
+	.login form {
+		width: auto;
+	}
+	.login .username,
+	.login .submit,
+	.login .password {
+		float: none;
+	}
+	.login input[type="text"],
+	.login input[type="password"] {
+		width: 100%;
+	}
+}
+
+
+@media all and (max-width: )
